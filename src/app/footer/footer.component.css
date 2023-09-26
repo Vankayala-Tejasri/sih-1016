@@ -1,0 +1,82 @@
+.footer-container {
+    background-color: rgb(9, 9, 48);
+    border: 2px solid black;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    margin-top:50%;
+}
+.contact-info{
+    padding: 10px 20px;
+}
+h2{
+    text-decoration: underline;
+    padding:10px 15px;
+    color:wheat;
+}
+
+.quick-links, .follow-us {
+    text-align: left; 
+}
+
+.links {
+    display: flex;
+ }
+
+.column {
+    margin: 0 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px; 
+}
+
+h1 {
+    color: wheat;
+    text-decoration: underline;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 24px; 
+}
+
+.follow-link {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px; 
+    margin-top: 10px;
+}
+
+
+.fa-solid {
+    margin-right: 5px;
+    font: 50px;
+}
+
+.divider {
+    border-top: 1px solid whitesmoke;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.copyright {
+    font-size: 14px;
+    text-align: center; 
+    color: white;
+    align-items: center;
+}

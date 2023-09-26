@@ -1,0 +1,58 @@
+.grids{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 80px;
+    padding: 60px 50px;
+    
+}
+.box1{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    color:white;
+    border-radius: 15px;
+    background-color: rgb(247, 92, 92);
+    align-items: center;
+}
+.box1 p{
+margin-top: 15px;
+}
+.box2 p{
+    margin-top: 15px;
+}
+.box3 p{
+    margin-top: 15px;
+}
+.box2{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    color:white;
+    border-radius: 15px;
+    
+    background-color:rgba(213, 140, 4, 0.886);
+}
+.box3{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    color:white;
+    
+    border-radius: 15px;
+    background-color:rgb(5, 123, 5);
+}
+.box3:hover{
+    width: 110%;
+    height: 110%;
+}
+.box2:hover{
+    width: 110%;
+    height: 110%;
+}
+.box1:hover{
+    width: 110%;
+    height: 110%;
+}
